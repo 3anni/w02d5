@@ -1,0 +1,79 @@
+
+header > img {
+    width: 100px;
+}
+
+body {
+    font-family: Arial sans-serif;
+    background-color: lightcyan;
+}
+
+
+h2 {
+    font-size: 32px;
+}
+
+
+h1 {
+    font-size: 38px;
+}
+
+.ingredients-list {
+    list-style: square inside;
+}
+
+.directions-list li:nth-child(odd) {
+    background-color: lightgray
+}
+
+.directions-list {
+    list-style: number inside;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+input[type="radio"], select, input[type="submit"] {
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background-image: url(./stars.png);
+    vertical-align: bottom;
+    /* <img src="happy_image.png" alt="I'm happy" /> */
+}
+
+input[type="radio"]:hover {
+    background-position: 30px 60px;
+}
+
+input[type="radio"]:checked {
+    background-position: 30px 30px;
+}
+
+input[type="submit"] {
+    background-color: gold;
+    opacity: 0.5
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+}
+
+
+select {
+    cursor: pointer;
+    outline: none;
+}
+
+h2 + .user_review {
+    border-top: 1px solid black;
+}
